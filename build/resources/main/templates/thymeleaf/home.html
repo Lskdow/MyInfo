@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout_main}">
+
+<head>
+    <link th:href="@{/css/home.css}" rel="stylesheet">
+</head>
+
+
+<body>
+<div layout:fragment="content">
+    <!---상단-->
+    <div id = "top">
+    <h1 id = "hello">반가워요! <br>
+    무엇을 하시겠어요?
+    </h1>
+    </div>
+
+    <div id = "center">
+    <!--중간-->
+    <button id = "resume" onclick="location.href='resume'">이력서 작성</button>
+    <button id = "self_info" onclick="location.href='self_info'">자기소개서 작성</button>
+
+    </div>
+
+</div>
+</body>
+</html>

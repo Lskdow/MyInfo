@@ -1,0 +1,126 @@
+/*폰트*/
+@font-face {
+    font-family: 'melona';
+    src: url("/font/BinggraeMelona-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'nanum';
+    src: url("/font/NanumGothic.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'nanum_bold';
+    src: url("/font/NanumGothicExtraBold.ttf") format('truetype');
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    /*min-height: 100%;*/
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.content{
+    font-family: 'nanum';
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom:100px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+/* 구역 설정 */
+#top{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+    position: center;
+    border: 5px solid black;
+    padding-top : 20px;
+    padding-left: 250px;
+    padding-right: 150px;
+    justify-content: center;
+    float: left;
+
+}
+
+#bottom{
+    float: right;
+    display: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+
+
+/* 요소 설정 */
+
+h3 {
+    font-family: 'nanum';
+    font-weight:100;
+    font-size:20px;
+}
+
+input:focus{
+    outline: none;
+}
+.info {
+    border-width: 0px;
+}
+
+.section{
+    font-family: 'nanum_bold';
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#print {
+
+    width : 150px;
+    height : 50px;
+
+    background-color:black;
+    color : white;
+
+    border-radius: 20px;
+    border : none;
+
+    font-family: 'melona';
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+
+#confirm {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+

@@ -1,0 +1,100 @@
+/*폰트*/
+@font-face {
+    font-family: 'melona';
+    src: url("/font/BinggraeMelona-Bold.ttf") format('truetype');
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.content{
+    margin-bottom:100px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* 구역 설정 */
+#top{
+    margin-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+#center{
+    margin-top: 60px;
+    padding : 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 요소 설정 */
+
+#hello{
+
+   margin-right: 25px;
+   font-family: 'melona';
+   font-weight: 100;
+   font-size: 60px;
+
+}
+
+#resume {
+
+    margin-left: 25px;
+
+    width : 400px;
+    height : 80px;
+
+
+    background-color:black;
+    color : white;
+
+    border-radius: 20px;
+    border : none;
+
+    font-family: 'melona';
+    font-weight: 100;
+    font-size: 40px;
+    curser: pointer;
+}
+
+
+
+#self_info {
+
+    margin-left: 25px;
+
+    width : 400px;
+    height : 80px;
+
+
+    background-color:black;
+    color : white;
+
+    border-radius: 20px;
+    border : none;
+
+    font-family: 'melona';
+    font-weight: 100;
+    font-size: 40px;
+    curser: pointer;
+}
